@@ -6,8 +6,8 @@ import "./App.css";
 //import Props from "./components/example5/Router";
 //import Role from "./components/example6/User";
 //import Props from "./components/example7/App";
-import Props from "./components/example8/App";
-//import Props from "./components/example9/App";
+//import Props from "./components/example8/App";
+import Props from "./components/example9/App";
 //import Props from "./components/example10/App";
 
 
