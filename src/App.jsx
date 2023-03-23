@@ -1,10 +1,10 @@
 import './App.css';
 //import Props from "./components/example1/App";
-//import Props from "./components/example2/App";
+import Props from "./components/example2/App";
 //import Button from "./components/example3/Button";
 //import Props from "./components/example4/App";
 //import Props from "./components/example4/App";
-import Props from "./components/example5/Router";
+//import Props from "./components/example5/Router";
 
 
 
