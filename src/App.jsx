@@ -4,7 +4,7 @@ import "./App.css";
 //import Button from "./components/example3/Button";
 //import Props from "./components/example4/App";
 //import Props from "./components/example5/Router";
-import Role from "./components/example6/User";
+//import Role from "./components/example6/User";
 
 /*const onClicked = () => {
   alert("Hello I am onClicked")
@@ -13,20 +13,20 @@ import Role from "./components/example6/User";
 function App() {
   //const role="user";
 
-  function promptNumber(){
+  /*function promptNumber(){
     parseFloat(prompt("Please enter 0 or 1"));
   }
 
   const users = [
     { name: "Alperen", role: "admin" },
     { name: "Ahmet", role: "user" },
-  ];
+  ];*/
 
   return (
     <div className="App">
       <h1>React Props</h1>
       {/*<Button bgcolor="green" color="white" children="Buy Now" size="medium" onClick={onClicked} />*/}
-      <Role role={users[promptNumber()].role} username={users[promptNumber()].name} />
+      {/*<Role role={users[promptNumber()].role} username={users[promptNumber()].name} />*/}
     </div>
   );
 }
