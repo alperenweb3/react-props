@@ -6,6 +6,7 @@ function List(props) {
     <ListItem key={item.name} name={item.name} description={item.description} />
   ));
 
+  console.log(props);
   return <ul>{items}</ul>;
 }
 

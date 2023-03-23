@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <List items={items} />
+      <List items={items}/>
     </div>
   );
 }
