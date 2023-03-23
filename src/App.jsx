@@ -5,6 +5,8 @@ import "./App.css";
 //import Props from "./components/example4/App";
 //import Props from "./components/example5/Router";
 //import Role from "./components/example6/User";
+import Props from "./components/example7/App";
+
 
 /*const onClicked = () => {
   alert("Hello I am onClicked")
@@ -25,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1>React Props</h1>
+      <Props />
       {/*<Button bgcolor="green" color="white" children="Buy Now" size="medium" onClick={onClicked} />*/}
       {/*<Role role={users[promptNumber()].role} username={users[promptNumber()].name} />*/}
     </div>
