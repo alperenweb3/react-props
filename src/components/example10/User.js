@@ -1,6 +1,7 @@
 import React from 'react';
 
 function User(props) {
+  
   const { name, age } = props.user;
 
   if (age >= 18) {
