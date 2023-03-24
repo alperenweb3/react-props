@@ -7,6 +7,17 @@ function Box(props) {
       {props.children}
     </div>
   );
+
+  /*const styles = {
+    backgroundColor:props.color,
+    borderRadius:props.radius
+  }
+
+  return (
+    <div className="box" style={styles}>
+      {props.children}
+    </div>
+  );*/
 }
 
 export default Box;
